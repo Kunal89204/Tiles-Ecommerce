@@ -10,66 +10,67 @@ const ImageThumbnail = () => {
     setUrl(url);
   };
   return (
-    <div className=" p-10 flex justify-center gap-10 2xl:px-40">
+    <div className=" lg:flex justify-center gap-10 ">
       {/* Product images box */}
-      <div className="bg-white border w-1/2 p-4 rounded-lg ">
+      <div className="bg-white lg:w-1/2 p-4  ">
         {/* Main Image */}
         <div className="flex justify-center">
           <img src={imgUrl} alt="" />
         </div>
 
         {/* Thumbnails */}
-        <div className="flex gap-2 p-2 overflow-scroll border">
-          <div className="w-20 cursor-pointer">
+        <div className="flex w-full gap-2 p-2 overflow-scroll border">
+          <div className="lg:w-20  cursor-pointer">
             <img
               src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-alabastrino-bianco-porcelain-semi-polished-tile-120x60cm-16.jpg"
               alt=""
               onClick={(e) => handleThumbnail(e.target.src)}
+              className="w-full"
             />
           </div>
-          <div className="w-20 cursor-pointer">
+          <div className="lg:w-20  cursor-pointer">
             <img
               src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-alabastrino-bianco-porcelain-semi-polished-tile-120x60cm-17.jpg"
               alt=""
               onClick={(e) => handleThumbnail(e.target.src)}
             />
           </div>
-          <div className="w-20 cursor-pointer">
+          <div className="lg:w-20  cursor-pointer">
             <img
               src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-alabastrino-bianco-porcelain-semi-polished-tile-120x60cm-16.jpg"
               alt=""
               onClick={(e) => handleThumbnail(e.target.src)}
             />
           </div>
-          <div className="w-20 cursor-pointer">
+          <div className="lg:w-20  cursor-pointer">
             <img
               src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-alabastrino-bianco-porcelain-semi-polished-tile-120x60cm-17.jpg"
               alt=""
               onClick={(e) => handleThumbnail(e.target.src)}
             />
           </div>
-          <div className="w-20 cursor-pointer">
+          <div className="lg:w-20  cursor-pointer">
             <img
               src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-alabastrino-bianco-porcelain-semi-polished-tile-120x60cm-16.jpg"
               alt=""
               onClick={(e) => handleThumbnail(e.target.src)}
             />
           </div>
-          <div className="w-20 cursor-pointer">
+          <div className="lg:w-20  cursor-pointer">
             <img
               src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-alabastrino-bianco-porcelain-semi-polished-tile-120x60cm-17.jpg"
               alt=""
               onClick={(e) => handleThumbnail(e.target.src)}
             />
           </div>
-          <div className="w-20 cursor-pointer">
+          <div className="lg:w-20  cursor-pointer">
             <img
               src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-alabastrino-bianco-porcelain-semi-polished-tile-120x60cm-16.jpg"
               alt=""
               onClick={(e) => handleThumbnail(e.target.src)}
             />
           </div>
-          <div className="w-20 cursor-pointer">
+          <div className="lg:w-20  cursor-pointer">
             <img
               src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-alabastrino-bianco-porcelain-semi-polished-tile-120x60cm-17.jpg"
               alt=""
@@ -79,7 +80,7 @@ const ImageThumbnail = () => {
         </div>
       </div>
 
-      <div className="bg-white p-10 w-1/2 rounded-lg">
+      <div className="bg-white p-10 lg:w-1/2  my-4 lg:my-0">
         <div className="text-3xl py-2">
           Dazzle Alabastrino Bianco Porcelain Semi-Polished Tile 120x60cm
         </div>
