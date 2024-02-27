@@ -62,7 +62,7 @@ const BestSeller = () => {
           >
             <SwiperSlide>
               <div>
-                <Link>
+                <Link to='/product'>
                   <div className="relative group">
                     <img
                       src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-alabastrino-bianco-porcelain-semi-polished-tile-120x60cm-1.jpg"
@@ -80,7 +80,7 @@ const BestSeller = () => {
                   Rs. 1000/m <sup>2</sup>
                 </div>
                 <div className="text-center">
-                  <Link>
+                  <Link to='/product'>
                     Dazzle Alabastrino Bianco Porcelain Semi-Polished Tile
                     120x60cm
                   </Link>
@@ -93,7 +93,7 @@ const BestSeller = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div>
-                <Link>
+                <Link to='/product'>
                   <div className="relative group">
                     <img
                       src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/amstel-cemento-porcelain-matt-tile-60x30cm-1.jpg"
@@ -111,7 +111,7 @@ const BestSeller = () => {
                   Rs. 1000/m <sup>2</sup>
                 </div>
                 <div className="text-center">
-                  <Link>
+                  <Link to='/product'>
                     Dazzle Alabastrino Bianco Porcelain Semi-Polished Tile
                     120x60cm
                   </Link>
@@ -124,7 +124,7 @@ const BestSeller = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div>
-                <Link>
+                <Link to='/product'>
                   <div className="relative group">
                     <img
                       src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/T/B/borgo-noir-porcelain-wall-tile-gloss-20x65cm-1.jpg"
@@ -142,7 +142,7 @@ const BestSeller = () => {
                   Rs. 1000/m <sup>2</sup>
                 </div>
                 <div className="text-center">
-                  <Link>
+                  <Link to='/product'>
                     Dazzle Alabastrino Bianco Porcelain Semi-Polished Tile
                     120x60cm
                   </Link>
@@ -155,7 +155,7 @@ const BestSeller = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div>
-                <Link>
+                <Link to='/product'>
                   <div className="relative group">
                     <img
                       src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/T/I/statuario-light-grande-marble-effect-porcelain-gloss-tile-120x60cm-1.jpg"
@@ -173,7 +173,7 @@ const BestSeller = () => {
                   Rs. 1000/m <sup>2</sup>
                 </div>
                 <div className="text-center">
-                  <Link>
+                  <Link to='/product'>
                     Dazzle Alabastrino Bianco Porcelain Semi-Polished Tile
                     120x60cm
                   </Link>
@@ -186,7 +186,7 @@ const BestSeller = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div>
-                <Link>
+                <Link to='/product'>
                   <div className="relative group">
                     <img
                       src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/T/U/udino-nero-terrazzo-effect-porcelain-matt-tile-120x60cm-1.jpg"
@@ -204,7 +204,7 @@ const BestSeller = () => {
                   Rs. 1000/m <sup>2</sup>
                 </div>
                 <div className="text-center">
-                  <Link>
+                  <Link to='/product'>
                     Dazzle Alabastrino Bianco Porcelain Semi-Polished Tile
                     120x60cm
                   </Link>
@@ -217,7 +217,7 @@ const BestSeller = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div>
-                <Link>
+                <Link to='/product'>
                   <div className="relative group">
                     <img
                       src="https://images.tilemerchant.ie/media/catalog/product/cache/31921ae51e31d933e57738157a5fecc9/_/m/dazzle-toronto-bianco-porcelain-tile-120x60cm-1.jpg"
@@ -235,7 +235,7 @@ const BestSeller = () => {
                   Rs. 1000/m <sup>2</sup>
                 </div>
                 <div className="text-center">
-                  <Link>
+                  <Link to='/product'>
                     Dazzle Alabastrino Bianco Porcelain Semi-Polished Tile
                     120x60cm
                   </Link>
